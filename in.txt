@@ -1,0 +1,7 @@
+minsk
+grodno
+brest
+gomel
+mogelev
+krakow
+moscow

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="libs/jquery-3.6.1.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <textarea cols="100" rows="30" id="input"></textarea>
+    <button onclick="sendreq()">Отправить</button>
+    <br>
+    <button onclick="showbefore()">Показать изначальные города</button>
+    <button onclick="showafter()">Показать обработанные города</button>
+
+    <table>
+        <tr>
+            <td>
+                <ol id="before">
+
+                </ol>
+            </td>
+
+            <td>
+                <ol id="after">
+
+                </ol>
+            </td>
+            
+        </tr>
+    </table>
+</body>
+
+</html>
